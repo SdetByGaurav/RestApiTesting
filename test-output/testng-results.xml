@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2375" started-at="2019-06-09T07:13:28Z" finished-at="2019-06-09T07:13:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2375" started-at="2019-06-09T07:13:28Z" finished-at="2019-06-09T07:13:30Z">
+      <class name="ApiTest.Real_Get_Request">
+        <test-method status="PASS" signature="get_all_india_states()[pri:0, instance:ApiTest.Real_Get_Request@73035e27]" name="get_all_india_states" duration-ms="2343" started-at="2019-06-09T12:43:28Z" finished-at="2019-06-09T12:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_all_india_states -->
+      </class> <!-- ApiTest.Real_Get_Request -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
