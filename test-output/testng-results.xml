@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2375" started-at="2019-06-09T07:13:28Z" finished-at="2019-06-09T07:13:30Z">
+  <suite name="Default suite" duration-ms="2656" started-at="2019-06-23T05:57:32Z" finished-at="2019-06-23T05:57:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2375" started-at="2019-06-09T07:13:28Z" finished-at="2019-06-09T07:13:30Z">
-      <class name="ApiTest.Real_Get_Request">
-        <test-method status="PASS" signature="get_all_india_states()[pri:0, instance:ApiTest.Real_Get_Request@73035e27]" name="get_all_india_states" duration-ms="2343" started-at="2019-06-09T12:43:28Z" finished-at="2019-06-09T12:43:30Z">
+    <test name="Default test" duration-ms="2656" started-at="2019-06-23T05:57:32Z" finished-at="2019-06-23T05:57:35Z">
+      <class name="com.api.TestScript.TestPost">
+        <test-method status="PASS" signature="configBeforeSuite()[pri:0, instance:com.api.TestScript.TestPost@77f03bb1]" name="configBeforeSuite" is-config="true" duration-ms="11" started-at="2019-06-23T11:27:32Z" finished-at="2019-06-23T11:27:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get_all_india_states -->
-      </class> <!-- ApiTest.Real_Get_Request -->
+        </test-method> <!-- configBeforeSuite -->
+        <test-method status="PASS" signature="post_request()[pri:0, instance:com.api.TestScript.TestPost@77f03bb1]" name="post_request" duration-ms="2640" started-at="2019-06-23T11:27:32Z" finished-at="2019-06-23T11:27:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_request -->
+      </class> <!-- com.api.TestScript.TestPost -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

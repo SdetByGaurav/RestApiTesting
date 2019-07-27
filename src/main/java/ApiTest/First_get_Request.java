@@ -12,6 +12,7 @@ public class First_get_Request {
 	@Test
 	public void getRequest()
 	{
+		
 		Response resp = RestAssured.get("http://localhost:3000/posts");
 		
 		int statusCode = resp.statusCode();

@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="ApiTest.Real_Get_Request">
+      <class name="com.api.TestScript.TestPost">
         <methods>
-          <include name="get_all_india_states"/>
+          <include name="post_request"/>
+          <include name="configBeforeSuite"/>
         </methods>
-      </class> <!-- ApiTest.Real_Get_Request -->
+      </class> <!-- com.api.TestScript.TestPost -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
